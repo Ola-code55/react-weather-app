@@ -12,7 +12,7 @@ export default function App() {
         <footer>
           <small>
             <a
-              href="https://github.com/Ola-code55/"
+              href="https://github.com/Ola-code55/react-weather-app"
               target="_blank"
               rel="noopener noreferrer"
             >
