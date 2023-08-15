@@ -1,16 +1,16 @@
 import React from "react";
-import WeatherSearch from "./WeatherSearch";
 import Navigation from "./Navigation";
+import Weather from "./Weather";
+import WeatherSearch from "./WeatherSearch";
 import './App.css';
 
 export default function App() {
   return (
+    <div className="App">
        <div className="App-container"> 
-      <div className="App">
-         <Navigation />   
+         <Navigation /> 
         <WeatherSearch />
-          </div>
-     
+         <Weather />  
             <footer className= "App-footer">
           <small>
             <a
@@ -24,6 +24,7 @@ export default function App() {
           </small>
         </footer>
        </div>  
+          </div>
   );
 }
 

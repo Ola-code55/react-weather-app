@@ -20,7 +20,7 @@ color: #787777;
 .weather-description {
     color: #787777;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: none;
     margin-top: 10px;
     text-transform: capitalize;
 }
