@@ -5,11 +5,13 @@ import './App.css';
 
 export default function App() {
   return (
-    <div className="App-container">
+       <div className="App-container"> 
       <div className="App">
-        <Navigation />
+         <Navigation />   
         <WeatherSearch />
-        <footer>
+          </div>
+     
+            <footer className= "App-footer">
           <small>
             <a
               href="https://github.com/Ola-code55/react-weather-app"
@@ -21,8 +23,7 @@ export default function App() {
             , by Olakusibe Animashaun
           </small>
         </footer>
-      </div>
-    </div>
+       </div>  
   );
 }
 

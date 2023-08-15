@@ -46,6 +46,7 @@ export default function WeatherSearch(props) {
   let weatherDisplay = null;
 
   if (loaded) {
+   
     weatherDisplay = (
       <div className="weather-display">
         <div className="weather-header">
