@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Weather.css"
 export default function Weather () {
     return (
  <div className="Weather">
@@ -9,10 +9,18 @@ export default function Weather () {
     <li>Cloudy</li>
  </ul>
 <div className = "row">
-    <div className = "col-6">
-<img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="Cloudy"/>
-27℃
-    </div>
+    <div className ="col-6">
+        <div className="clearfix">
+<img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="Cloudy"
+
+/>
+
+
+<span className="temperature">27</span>
+<span className="unit">℃</span>
+   </div>
+   </div>
+   
     <div className = "col-6">
         <ul>
             <li> Precipitation: 71%</li>

@@ -12,7 +12,6 @@ export default function App() {
         <WeatherSearch />
          <Weather />  
             <footer className= "App-footer">
-          <small>
             <a
               href="https://github.com/Ola-code55/react-weather-app"
               target="_blank"
@@ -21,7 +20,6 @@ export default function App() {
               Open-source code
             </a>
             , by Olakusibe Animashaun
-          </small>
         </footer>
        </div>  
           </div>
